@@ -1,7 +1,3 @@
--- JobTrack database schema (PostgreSQL)
--- Run this once against a fresh database before starting the server.
--- Example: psql "$DATABASE_URL" -f db/schema.sql
-
 CREATE TABLE IF NOT EXISTS users (
     id SERIAL PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
